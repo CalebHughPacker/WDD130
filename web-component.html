@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #131;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 46px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: greenyellow;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 260px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="#home"><i class="fa fa-fw fa-home"></i> House </a>
+  <a href="#services"><i class="fa fa-fw fa-wrench"></i> Wrench Wrepository</a>
+  <a href="#clients"><i class="fa fa-fw fa-user"></i> Custom Character Creator</a>
+  <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Get a free Envelope</a>
+</div>
+
+<div class="main">
+  <h1>This Homepage has a Sidebar</h1>
+  <h2>Pretty nifty, huh?</h2>
+  <p>If you want to navigate around the page, you can now use this side bar. It even has icons!</p>
+  <p>I chose all the colors myself! I felt like they represented the way I wanted the sidebar to look cool, and did it by choosing colors that felt cool to me. If they don't look cool to you, you can voice your opinions by writing a letter. Envelopes can be obtained from the 'Get a Free Enveleope' menu option. Note that I am not entitled to acknowledge or care about your opinion. </p>
+  <p>Wrenches can be found under the second link. Note my usage of the letter W in the second word. Repository is typically spelled without a W, but I used one to imitate the silent W in the word wrench. Aren't I clever?</p>
+  <p>If you want to create a character, use the 'Custom Character Creator' option in the side bar. Keep in mind however that at the final judgement you will be held accountable for your character. </p>
+  <p>As previously mentioned, you if you do not have an envelope you can click the 'Get a free Envelope' link in order to get a free envelope. The link says 'a free envelope', not 'free envelopes', so don't get greedy. </p>
+  <img src="images\sidebar.png" alt="A glorious picture of the sidebar">
+  <p>Here is an image of the sidebar and how it should appear on your screen. If it does not appear this way in your browser, then I'm sorry I don't know what to tell you. If you have any additional questions about how to use the sidebar, please direct them towards Google and/or ChatGPT.</p>
+</div>
+     
+</body>
+</html> 
